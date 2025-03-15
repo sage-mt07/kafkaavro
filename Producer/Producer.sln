@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "..\Consumer\Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTable", "..\KTable\KTable.csproj", "{4E530DFB-B828-4382-9976-2A22047D9C71}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{005A766E-21E6-4FA2-86ED-360F2DD7F9DE}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
