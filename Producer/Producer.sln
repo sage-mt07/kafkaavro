@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer.csproj", "{3B393ACF-69EE-41ED-8912-CA6FDD28C31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "..\Consumer\Consumer.csproj", "{6ACF7B71-D888-46A8-915E-9F2F1D6271E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTable", "..\KTable\KTable.csproj", "{4E530DFB-B828-4382-9976-2A22047D9C71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B393ACF-69EE-41ED-8912-CA6FDD28C31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B393ACF-69EE-41ED-8912-CA6FDD28C31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B393ACF-69EE-41ED-8912-CA6FDD28C31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B393ACF-69EE-41ED-8912-CA6FDD28C31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACF7B71-D888-46A8-915E-9F2F1D6271E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACF7B71-D888-46A8-915E-9F2F1D6271E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACF7B71-D888-46A8-915E-9F2F1D6271E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACF7B71-D888-46A8-915E-9F2F1D6271E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E530DFB-B828-4382-9976-2A22047D9C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E530DFB-B828-4382-9976-2A22047D9C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E530DFB-B828-4382-9976-2A22047D9C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E530DFB-B828-4382-9976-2A22047D9C71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FFEF659-E1EA-4A91-8EAB-22174EB1AA4B}
+	EndGlobalSection
+EndGlobal
